@@ -1,4 +1,4 @@
-# Copyright 2025 The HuggingFace Team. All rights reserved.
+# Copyright 2024 The HuggingFace Team. All rights reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,10 +18,10 @@ from transformers.utils.import_utils import define_import_structure
 
 
 if TYPE_CHECKING:
-    from .configuration_smolvlm import *
-    from .image_processing_smolvlm import *
-    from .modeling_smolvlm import *
-    from .processing_smolvlm import *
+    from .configuration_llama import *
+    from .modeling_llama import *
+    from .tokenization_llama import *
+    from .tokenization_llama_fast import *
 else:
     import sys
 
